@@ -1,3 +1,10 @@
+NIM:123190123
+Nama: shazi awaludin
+
+Program ini digunakan untuk melihat seberapa valuable sebuah device atas performa, display, dan pengalaman penggunaan user terhadapnya.
+terdapat 3 input berupa performa, display, dan pengalaman penggunaan. Terdapat 3 output berupa value for money, rating, dan prediksi goib di pasar
+
+
 Input : 5
 
 ![Screenshot 2021-04-12 165139](https://user-images.githubusercontent.com/60837766/114378560-0a0c6300-9bb2-11eb-9555-421d3b0edc2c.jpg)
