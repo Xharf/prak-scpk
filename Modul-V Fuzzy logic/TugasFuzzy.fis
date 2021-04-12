@@ -1,0 +1,94 @@
+[System]
+Name='TugasFuzzy'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=3
+NumRules=30
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Performa'
+Range=[0 10]
+NumMFs=4
+MF1='Buruk':'gaussmf',[1.062 -2.776e-17]
+MF2='biasa':'gaussmf',[1.06 6.56084656084656]
+MF3='Sangat_baik':'gaussmf',[1.06 10.0132275132275]
+MF4='Kurang':'gaussmf',[1.06 3.02910052910053]
+
+[Input2]
+Name='Display'
+Range=[0 10]
+NumMFs=4
+MF1='Buruk':'trimf',[-2.501 0 2.501]
+MF2='Baik':'trimf',[3.92857142857143 6.42857142857143 8.92857142857143]
+MF3='Sangat_baik':'trimf',[7.51282010582011 10.0128201058201 12.5158201058201]
+MF4='Kurang':'trimf',[1.00529100529101 3.50529100529101 6.00529100529101]
+
+[Input3]
+Name='Penggunaan'
+Range=[0 10]
+NumMFs=3
+MF1='Buruk':'trimf',[-4 0 5]
+MF2='Biasa':'trimf',[1 5 9]
+MF3='Menyenangkan':'trimf',[5 10 15]
+
+[Output1]
+Name='Value_for_money'
+Range=[0 10]
+NumMFs=3
+MF1='tidak':'trimf',[-4 0 4]
+MF2='biasa':'trimf',[1 5 9]
+MF3='ya':'trimf',[6 10 14]
+
+[Output2]
+Name='Rating'
+Range=[0 10]
+NumMFs=3
+MF1='buruk':'trimf',[-4 0 4]
+MF2='biasa':'trimf',[1 5 9]
+MF3='baik':'trimf',[6 10 14]
+
+[Output3]
+Name='Prediksi'
+Range=[0 10]
+NumMFs=3
+MF1='tidak':'trimf',[-4 0 4]
+MF2='biasa':'trimf',[1 5 9]
+MF3='goib':'trimf',[6 10 14]
+
+[Rules]
+1 1 1, 1 1 1 (1) : 1
+1 2 1, 1 1 1 (1) : 1
+1 2 2, 1 2 2 (1) : 1
+1 2 3, 1 2 2 (1) : 1
+1 2 0, 0 2 2 (1) : 1
+2 2 1, 1 1 1 (1) : 1
+2 2 2, 2 3 2 (1) : 1
+2 2 3, 2 3 2 (1) : 1
+2 3 3, 3 3 2 (1) : 1
+2 3 1, 1 1 1 (1) : 1
+2 3 2, 2 3 2 (1) : 1
+2 3 3, 2 3 2 (1) : 1
+3 1 1, 1 1 2 (1) : 1
+3 1 2, 1 1 2 (1) : 1
+3 2 1, 1 1 2 (1) : 1
+3 2 2, 2 2 2 (1) : 1
+3 2 3, 2 3 2 (1) : 1
+3 3 1, 1 1 2 (1) : 1
+3 3 2, 2 2 2 (1) : 1
+3 3 3, 3 3 3 (1) : 1
+4 1 1, 1 1 1 (1) : 1
+4 2 1, 1 1 1 (1) : 1
+4 3 1, 1 2 1 (1) : 1
+4 4 1, 1 1 1 (1) : 1
+4 2 2, 2 2 2 (1) : 1
+4 3 2, 2 3 2 (1) : 1
+4 4 2, 2 3 2 (1) : 1
+4 4 3, 2 3 2 (1) : 1
+4 3 3, 2 3 2 (1) : 1
+4 2 3, 2 3 2 (1) : 1
