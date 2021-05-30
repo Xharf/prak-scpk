@@ -8,3 +8,6 @@
 
 # Tugas Fuzzy logic
 - Fuzzy logic   : https://github.com/Xharf/prak-scpk/blob/master/Modul-V%20Fuzzy%20logic/TugasFuzzy.fis
+
+# Tugas ANN
+- Jaringan syaraf tiruan: https://github.com/Xharf/prak-scpk/tree/master/Modul-VII%20ANN
