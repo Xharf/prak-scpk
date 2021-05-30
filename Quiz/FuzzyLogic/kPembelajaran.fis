@@ -1,0 +1,47 @@
+[System]
+Name='kPembelajaran'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=9
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='dosen'
+Range=[0 75]
+NumMFs=3
+MF1='Buruk':'trapmf',[-2 0 20 40]
+MF2='Cukup':'trimf',[20 40 60]
+MF3='Baik':'trapmf',[41 60 75 80]
+
+[Input2]
+Name='Nilai'
+Range=[0 100]
+NumMFs=3
+MF1='Buruk':'trapmf',[-36 0 50 60]
+MF2='Cukup':'trimf',[50 60 70]
+MF3='Baik':'trapmf',[60 70 104 136]
+
+[Output1]
+Name='Tingkat'
+Range=[0 100]
+NumMFs=3
+MF1='Rendah':'trapmf',[-36 -4 50 60]
+MF2='Sedang':'trimf',[50 60 70]
+MF3='Tringgi':'trapmf',[60 70 104 136]
+
+[Rules]
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1
+1 3, 3 (1) : 1
+2 1, 1 (1) : 1
+2 2, 2 (1) : 1
+2 3, 3 (1) : 1
+3 1, 1 (1) : 1
+3 2, 2 (1) : 1
+3 3, 3 (1) : 1
