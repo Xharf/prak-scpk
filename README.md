@@ -11,3 +11,6 @@
 
 # Tugas ANN
 - Jaringan syaraf tiruan: https://github.com/Xharf/prak-scpk/tree/master/Modul-VII%20ANN
+
+# Tugas SPK 
+- SPK (fuzzy-AHP): https://github.com/Xharf/prak-scpk/tree/master/Modul-VIII%20SPK
