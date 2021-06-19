@@ -14,3 +14,7 @@
 
 # Tugas SPK 
 - SPK (fuzzy-AHP): https://github.com/Xharf/prak-scpk/tree/master/Modul-VIII%20SPK
+
+# Tugas SAW
+- Best Univeristy: https://github.com/Xharf/prak-scpk/tree/master/Modul-X%20SAW
+- Dataset yang digunakan : https://www.kaggle.com/mylesoneill/world-university-rankings 
