@@ -306,7 +306,6 @@ group = readtable('dataset-stroke.csv', opt);
 %group = table2cell(group);
 
 class = fitcknn(training,group, 'NumNeighbors', 4);
-
 klasifikasi = predict(class, sample);
 
 %if(klasifikasi == '1')
