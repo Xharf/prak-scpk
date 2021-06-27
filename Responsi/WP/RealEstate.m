@@ -36,4 +36,4 @@ V = S/sum(S);
 
 for i = 1 : 50
    disp(V(i)+""); 
-   end
+end
