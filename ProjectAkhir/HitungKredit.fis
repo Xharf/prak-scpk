@@ -12,7 +12,7 @@ AggMethod='max'
 DefuzzMethod='centroid'
 
 [Input1]
-Name='input1'
+Name='Penghasilan'
 Range=[0 100000000]
 NumMFs=3
 MF1='Rendah':'trapmf',[-36000000 -4000000 3000000 15000000]
@@ -20,7 +20,7 @@ MF2='Sedang':'trimf',[3000000 15000000 30000000]
 MF3='Tinggi':'trapmf',[15000000 30000000 104000000 136000000]
 
 [Input2]
-Name='input2'
+Name='sisa'
 Range=[0 15000000]
 NumMFs=3
 MF1='rendah':'trapmf',[-5400000 -600000 1000000 5000000]
