@@ -22,3 +22,6 @@
 # Responsi
 - SAW : https://github.com/Xharf/prak-scpk/tree/master/Responsi/SAW
 - WP : https://github.com/Xharf/prak-scpk/tree/master/Responsi/WP
+
+# Project Akhir
+- https://github.com/Xharf/prak-scpk/tree/master/ProjectAkhir
